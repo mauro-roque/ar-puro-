@@ -269,7 +269,7 @@ body{
     font: 400 24px var(--font-principal);
     margin-bottom: 15px;
 }
-.campos> input{
+.campos > select{
     max-width: 450px;
     height: 55px;
 
@@ -278,6 +278,7 @@ body{
     margin-bottom: 20px;
     font: 400 24px var(--font-principal);
     padding-left: 20px;
+    margin-bottom: 250px;
 }
 .campos > button{
     max-width: 450px;
@@ -288,6 +289,8 @@ body{
     font: 400 22px var(--font-principal);
 }
 .container-resultado-principal{
+    display: none;
+
     max-width: 671px;
     margin-top: 45px;
 }
@@ -317,5 +320,13 @@ body{
     font: 400 24px var(--font-principal);
 }
 
+.imgFlorest{
+    position: static;
+    
+    filter: brightness(55%);
+
+    max-width: 671px;
+    height: 785px;
+}
 
 

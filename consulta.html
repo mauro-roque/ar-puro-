@@ -33,14 +33,19 @@
             <div class="consulta-campos">
                 <h1>Consultar AQI</h1>
                 <div class="campos">
-                    <label for="">Pais:</label>
-                    <input class="" type="text" name="" id="">
-                    <label for="">Cidade:</label>
-                    <input type="text" name="" id="">
-                    <button>Consultar</button>
+                    <label for="">Cidades:</label>
+                    <select id="cb_cidade">
+                        <option value="" >Selecione uma cidade</option>
+                    </select>
+                    <button id="btn">Consultar</button>
                 </div>
             </div>
-            <div class="container-resultado-principal">
+
+
+            <img id="desaparecer" class="imgFlorest" src="./utills/florestaConsult.svg" alt="">
+
+            <div id="aparecer" class="container-resultado-principal">
+                
                 <div class="resultado-item1">
                     <img src="./utills/imgTempo.svg" alt="">
                 </div>
@@ -53,6 +58,8 @@
                     </div>
                 </div>
             </div>
+
+
         </section>
     </div>
 
@@ -129,6 +136,8 @@
 </footer>
 
 
+<script src="./scripts/scriptCbCidades.js"></script>
+<script src="./scripts/scriptConsultaAqi.js"></script>
 
 </body>
 </html>
