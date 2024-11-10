@@ -239,3 +239,83 @@ body{
     color: var(--background-white);
     font: 200 20px var(--font-principal);
 }
+
+/*Parte da consulta*/
+.container-principal{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1340px;
+    height: 830px;
+}
+.consulta-campos{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 70px 0px 0 20px;
+    height: 100px;
+}
+.consulta-campos > h1{
+    font: 500 48px var(--font-principal);
+    margin-bottom: 95px;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+}
+.campos > label{
+    font: 400 24px var(--font-principal);
+    margin-bottom: 15px;
+}
+.campos> input{
+    max-width: 450px;
+    height: 55px;
+
+    border-radius: 6px;
+    background-color: var(--background-detalhes);
+    margin-bottom: 20px;
+    font: 400 24px var(--font-principal);
+    padding-left: 20px;
+}
+.campos > button{
+    max-width: 450px;
+    height: 55px;
+
+    color: var(--background-white);
+    background-color: var(--background-destaque);
+    font: 400 22px var(--font-principal);
+}
+.container-resultado-principal{
+    max-width: 671px;
+    margin-top: 45px;
+}
+.container-resultado-principal > img {
+    max-width: 100%;
+    height: 370px;
+}
+.resultado-item1{
+    max-width: 100%;
+    height: 370px;
+}
+.resultado-item2{
+    max-width: 100%;
+    margin: 20px 20px 0 20px;
+}
+#resultado-aqi{
+    color: #001945;
+    font: 500 24px var(--font-botoes);
+    margin-bottom: 10px;
+}
+.resultado-item2 > h3{
+    color: var(--background-destaque);
+    font: 400 24px var(--font-principal);
+    margin-bottom: 15px;
+}
+.resultado > p{
+    font: 400 24px var(--font-principal);
+}
+
+
+
